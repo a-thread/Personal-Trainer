@@ -30,7 +30,14 @@ a:hover,
 a:active,
 a:visited {
   text-decoration: none;
+  color: darkgrey;
   color: inherit;
+  padding: 1rem;
+  margin-left: 10px;
+  border: 2px solid white;
+}
+
+a.fitness {
 }
 
 header {
@@ -42,6 +49,10 @@ header {
 
 header h1 {
   transform: skewX(-2deg);
+}
+
+h1 {
+  font-size: 40px;
 }
 
 select {
