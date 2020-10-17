@@ -17,6 +17,8 @@ router.get("/api/workouts", (req, res) => {
 // Getting All Workouts
 router.get("/api/workouts/range", (req, res) => {
   db.Workout.find({})
+  // getting the last 7 days
+    .limit(7)
     .then((allWorkouts) => {
       res.json(allWorkouts);
     })
