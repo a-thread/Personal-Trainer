@@ -2,7 +2,7 @@
 # Personal Trainer 
 [![License: GPL v3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://choosealicense.com/licenses/gpl-3.0/)
 
-![Stats Page of Application](./public/img/stats.gif)
+![Stats Page of Application](./public/img/stats.png)
 
 #### Deployed Application: [Check it out on Heroku](https://lets-workout.herokuapp.com/)
     
