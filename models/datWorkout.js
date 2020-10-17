@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+
 const Schema = mongoose.Schema;
 
 const workoutSchema = new Schema({
@@ -35,6 +36,15 @@ const workoutSchema = new Schema({
             }
         }
     ]
+},
+    {
+        toJSON: { virtuals: true }
+    }
+);
+
+// From Hilary Ferraro to fix front end bug for total time of Workout
+workoutSchema.virtual("totalDuration").get(function () {
+    return this.exercises.reduce((total, exercise) => total + exercise.duration, 0);
 });
 
 const Workout = mongoose.model("Workout", workoutSchema);
