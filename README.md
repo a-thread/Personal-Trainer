@@ -12,11 +12,13 @@
 ---
 
 #### Table of Contents
-- [User Story](#user)
+- [Deployed Application](#deployed-application)
+- [Description](#description)
+- [User Story](#user-story)
 - [Demo](#demo)
-- [Technologies Used](#technologies)
-- [License](#license)
+- [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
+- [License](#license)
 - [Questions](#questions)
 
 ---
