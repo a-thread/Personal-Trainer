@@ -7,14 +7,12 @@
 #### Deployed Application: [Check it out on Heroku](https://lets-workout.herokuapp.com/)
     
 ## Description
-Here is where my description will go.
+**Personal Trainer** is a web application that that helps consumers reach their fitness goals by tracking their workout progress. Exercises are shown in two line graphs and two pie charts with each exercise shown below, all divided into two categories "All Exercises" and "Pounds Lifted".
 
 ---
 
 #### Table of Contents
-- [Description](#description)
 - [User Story](#user)
-- [Usage](#usage)
 - [Demo](#demo)
 - [Technologies Used](#technologies)
 - [License](#license)
@@ -27,10 +25,6 @@ Here is where my description will go.
 ```
 As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 ```
-
-### Usage
-This application is meant to help the consumer reach their fitness goals more quickly by tracking their workout progress. Exercises are shown in two line graphs and two pie charts with each exercise shown below, all divided into two categories "All Exercises" and "Pounds Lifted".
-
 
 ### Demo 
 ![Demo of Full Application](./public/img/demo.gif)
