@@ -44,10 +44,10 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 ### Contributing
 If you'd like to contribute to this application, feel free to submit a pull request.
 
-#### License
+### License
 This project is licensed under GPL v3.0. 
 
-#### Questions
+### Questions
     
 If you have any questions, please [email me.](mailto:aiden.threadgoode@gmail.com)
 
